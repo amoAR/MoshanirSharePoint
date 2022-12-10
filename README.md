@@ -2,7 +2,7 @@
 <img src="src/image/logo/Moshanir.png" alt="Moshanir Logo"/>
 </p>
 
-# Moshanir SharePoint Landing page
+# Moshanir SharePoint Landing-page
 
 The project introduction page and the landing page of the company's technical documents exchange portal in SharePoint.
 
