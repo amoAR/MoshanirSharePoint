@@ -1,0 +1,67 @@
+﻿@font-face {
+	font-family: 'iran-yekan';
+	font-style: normal;
+	font-weight: 100;
+	src: url('../font/main/IRANYekanWebThin.eot');
+	src: url('../font/main/IRANYekanWebThin.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iran-yekan';
+	font-style: normal;
+	font-weight: 300;
+	src: url('../font/main/IRANYekanWebLight.eot');
+	src: url('../font/main/IRANYekanWebLight.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iran-yekan';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../font/main/IRANYekanWebRegular.eot');
+	src: url('../font/main/IRANYekanWebRegular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iran-yekan';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../font/main/IRANYekanWebMedium.eot');
+	src: url('../font/main/IRANYekanWebMedium.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iran-yekan';
+	font-style: normal;
+	font-weight: bold;
+	src: url('../font/main/IRANYekanWebBold.eot');
+	src: url('../font/main/IRANYekanWebBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iran-yekan';
+	font-style: normal;
+	font-weight: 800;
+	src: url('../font/main/IRANYekanWebExtraBold.eot');
+	src: url('../font/main/IRANYekanWebExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iran-yekan';
+	font-style: normal;
+	font-weight: 850;
+	src: url('../font/main/IRANYekanWebBlack.eot');
+	src: url('../font/main/IRANYekanWebBlack.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'iran-yekan';
+	font-weight: 900;
+	src: url('../font/main/IRANYekanWebExtraBlack.eot');
+	src: url('../font/main/IRANYekanWebExtraBlack.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('../font/main/Yekan.ttf') format('truetype');
+}

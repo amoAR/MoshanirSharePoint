@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="fa-IR" dir="rtl">
+    <head>
+        <!--Title-->
+        <title>پرتال تبادل مدارک فنی شرکت مشانیر</title>
+
+        <!--Meta-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="">
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+
+        <link rel="shortcut icon" href="src/image/favicon/favicon.png">
+
+        <!--Styles-->
+        <link rel="stylesheet" href="src/css/bootstrap.rtl.min.css">
+        <link rel="stylesheet" href="src/css/style.css">
+        <link rel="stylesheet" href="src/css/iranyekan.css">
+        <link rel="stylesheet" href="src/css/awesome.min.css">
+    </head>
+
+    <body>
+        <!--Container-->
+        <div class="container-fluid page-wrapper">           
+            
+            <!--DarkOverlay-->
+            <div class="darkOverlay-bg">
+
+            </div>
+
+            <!--Header & Navbar-->
+            <div class="sticky">
+
+                <!--Header main-->
+                <header class="header-main navbar navbar-expand-lg shadow-sm">
+                    <div class="container px-3">
+                        <a href="#" class="navbar-brand pe-3" rel="home" aria-current="page" draggable="false">
+                            <img src="src/image/logo/Moshanir.png" class="header-logo" alt="مشانیر">
+                        </a>
+
+                        <!--Navbar main-->
+                        <nav class="offcanvas offcanvas-end">
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                    <li id="menu-item-1" class="nav-item menu-item-1">
+                                        <a href="#" id="menu-item-login" class="nav-link nav-link-main" aria-haspopup="false" aria-expanded="true" draggable="false">
+                                            ورود به سامانه
+                                        </a>
+                                    </li>
+
+                                    <li id="menu-item-2" class="nav-item menu-item-2">
+                                        <a href="#" id="menu-item-about" class="nav-link" aria-haspopup="false" aria-expanded="true">
+                                            درباره پروژه
+                                        </a>
+                                    </li>
+
+                                    <li id="menu-item-3" class="nav-item menu-item-3">
+                                        <a href="#" id="menu-item-gallery" class="nav-link" aria-haspopup="false" aria-expanded="true">
+                                            گالری تصاویر
+                                        </a>
+                                    </li>
+
+                                    <li id="menu-item-4" class="nav-item menu-item-4">
+                                        <a href="#" id="menu-item-coworkers" class="nav-link" aria-haspopup="false" aria-expanded="true">
+                                            شرکت‌های مرتبط
+                                        </a>
+                                    </li>
+
+                                    <!--Dropdown-->
+                                    <li id="menu-item-5" class="dropdown dropdown-main nav-item menu-item-5">
+                                        <a href="#" id="menu-item-features" class="dropdown-toggle nav-link" id="menu-features-dropdown" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="false">
+                                            امکانات سامانه <i class="fa-solid fa-angle-down"></i>
+                                        </a>
+
+                                        <ul class="dropdown-menu" aria-labelledby="menu-features-dropdown" role="menu">
+                                            <li id="menu-item-6" class="menu-item-6">
+                                                <a href="#" class="dropdown-item">
+                                                    FIRST ISSUE
+                                                </a>
+                                            </li>
+
+                                            <li id="menu-item-7" class="menu-item-7">
+                                                <a href="#" class="dropdown-item">
+                                                    NEW LETTER
+                                                </a>
+                                            </li>
+
+                                            <li id="menu-item-8" class="menu-item-8">
+                                                <a href="#" class="dropdown-item">
+                                                    REPLY
+                                                </a>
+                                            </li>
+
+                                            <li id="menu-item-9" class="menu-item-9">
+                                                <a href="#" class="dropdown-item">
+                                                    WAITING
+                                                </a>
+                                            </li>
+
+                                            <li id="menu-item-10" class="menu-item-10">
+                                                <a href="#" class="dropdown-item">
+                                                    REPORTS
+                                                </a>
+                                            </li>
+
+                                            <li id="menu-item-11" class="menu-item-11">
+                                                <a href="#" class="dropdown-item">
+                                                    FAST SEARCH
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>                                       
+                </header>  
+                
+                <!--Header mobile-->
+                <header class="header-mobile navbar navbar-expand-lg shadow-sm" style="display: none;">
+                    <div class="container px-3">
+                        <div class="manu-mobile d-flex align-items-center">
+
+                            <!--Navbar mobile - Hamburger menu-->
+                            <nav class="hamburger-menu">
+                                <input id="menu__toggle" type="checkbox" onclick="hamburgerOpen()">
+    
+                                <label class="menu__btn" for="menu__toggle">
+                                    <span></span>
+                                </label>
+                                
+                                <div class="offcanvas-body menu__box">
+                                    <ul id="hamburger_box">
+                                        <li class="menu__title">
+                                            <a href="#">
+                                                <h5 class="text-extrabold">فهرست</h5>
+                                            </a>
+                                        </li>
+                                        
+                                        <li class="menu__button">
+                                            <a class="btn btn-primary btn-sm rounded w-100 p-2" href="#">
+                                                ورود به سامانه
+                                                <i class="fa-solid fa-arrow-right-to-bracket m-2"></i>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="menu__item" href="#">درباره پروژه</a>
+                                        </li>
+    
+                                        <li>
+                                            <a class="menu__item" href="#">گالری تصاویر</a>
+                                        </li>
+    
+                                        <li>
+                                            <a class="menu__item" href="#">شرکت‌های مرتبط</a>
+                                        </li>
+    
+                                        <!--Dropdown-->
+                                        <li class="dropdown dropdown-mobile nav-item">
+                                            <a href="#" class="menu__item dropdown-toggle" data-bs-toggle="dropdown" id="menu-features-dropdown-mobile" aria-haspopup="true" aria-expanded="false" data-bs-auto-close="false" role="button">
+                                                امکانات سامانه <i class="fa-solid fa-angle-down dropdown-icon"></i>
+                                            </a>
+    
+                                            <ul class="dropdown-menu dropdown-menu-lg-start menu-features-dropdown-mobile bg-secondary shadow-none border-0" aria-labelledby="menu-features-dropdown-mobile" role="menu">
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                                                        FIRST ISSUE
+                                                    </a>
+                                                </li>
+    
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                                                        NEW LETTER
+                                                    </a>
+                                                </li>
+    
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                                                        REPLY
+                                                    </a>
+                                                </li>
+    
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                                                        WAITING
+                                                    </a>
+                                                </li>
+    
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                                                        REPORTS
+                                                    </a>
+                                                </li>
+    
+                                                <li>
+                                                    <a href="#" class="dropdown-item">
+                                                        FAST SEARCH
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>                                        
+                                    </ul>                                    
+                                </div>                                                                
+                            </nav>
+
+                            <div class="header-mobile-logo">
+                                <a href="#" class="navbar-brand m-0" rel="home" aria-current="page" draggable="false">
+                                    <img src="src/image/logo/Moshanir.png" class="header-logo" alt="مشانیر">
+                                </a>
+                            </div>
+                        </div>                        
+                    </div>
+                </header>
+            </div>
+            
+            <!--Body-->
+            <div class="content">
+
+                <!--Carousel-->
+                <div class="slider">                
+                    <div id="carouselMain" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="true">
+                        
+                        <!--Indicators-->
+                        <ol class="carousel-indicators carousel-indicators-main">  
+                            <li type="button" data-bs-target="#carouselMain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>                          
+                            <li type="button" data-bs-target="#carouselMain" data-bs-slide-to="1" aria-label="Slide 2"></li>                            
+                        </ol>
+
+                        <!--Items-->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="6000">
+                                <img src="src/image/slider/1.jpg" class="d-block w-100" alt="اسلایدر اول">
+                                
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="display-2 mb-lg-4 text-extrabold from-start">پست ۶۳/۲۰ سنقر</h5>
+                                    <p class="fs-5 opacity-85 pb-2 mb-lg-5 from-end">پروژه تامین تجهیزات ، نصب ، تست و راه اندازی</p>
+                                    <a href="#" class="btn btn-primary btn-lg from-bottom">اطلاعات بیشتر</a>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item" data-bs-interval="6000">
+                                <img src="src/image/slider/2.jpg" class="d-block w-100" alt="اسلایدر دوم">
+                                    
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="display-2 mb-lg-4 text-extrabold from-start">پست ۲۳۰/۴۰۰ زاهدان</h5>
+                                    <p class="fs-5 opacity-85 pb-2 mb-lg-5 from-end">پروژه ارائه خدمات مهندسی و نظارت کارگاهی</p>
+                                    <a href="#" class="btn btn-primary btn-lg from-bottom">اطلاعات بیشتر</a>
+                                </div>
+                            </div>
+                        
+                            <!--Controls-->
+                            <div class="carousel-control">
+                                <a class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+                                    <span class="fa-solid fa-chevron-right carousel-control-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">بعدی</span>
+                                </a>
+
+                                <a class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+                                    <span class="fa-solid fa-chevron-left carousel-control-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">قبلی</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+
+                <!--About project-->
+                <section id="about-project" class="container pt-5 mt-2 mt-md-4 mt-lg-5">
+                    <div class="row pt-xl-3 row-margin p-0">
+                        <div class="col-md-5 text-center text-md-start pb-5">
+                            <div class="p-0">
+                                <h1 class="mb-4">احداث پست ۶۳/۲۰ سنقر</h1>
+
+                                <p class="fs-lg text-regular pb-lg-3 mb-4">
+                                    پست ۶۳/۲۰ کیلوولت سنقر از پست‌های قدیمی استان کرمانشاه است
+                                    که عملیات احداث پست جدید سنقر با ظرفیت ۸۰ مگاولت آمپر و جایگزینی
+                                    با پست موجود در دستور کار این شرکت قرار گرفت
+                                </p>
+                                
+                                <a href="#" class="btn btn-primary btn-lg" role="button">
+                                    درباره ما
+                                </a>
+
+                                <h6 class="p-0 mt-3 mt-sm-0 pt-4 pt-sm-5 mt-xl-4 mb-4">تقدیرهای پروژه :</h6>
+
+                                <img src="src/image/awards/awards.svg" alt="تقدیرها" class="awards">
+                            </div>                            
+                        </div>
+
+                        <div class="col-xl-6 col-md-7 offset-xl-1 pb-4 pb-sm-3 pb-lg-0 mb-4 mb-sm-5 mb-lg-0">
+                            <img src="src/image/about/about.jpg" alt="درباره پروژه" class="rounded-3 shadow-sm about-img">
+                        </div>
+                    </div>
+                </section>
+                
+                <!--Features-->
+                <section id="features" class="bg-secondary pb-md-2">
+                    <div class="container pb-4 pt-5">
+                        <div class="p-0">
+                            <h1 class="text-md-start mb-lg-4 pt-1 pt-md-4">امکانات سایت</h1>
+
+                            <div class="row align-items-center pb-5 mb-lg-2">
+                                <div class="col-md-8 text-center text-md-start">
+                                    <p class="fs-lg text-muted text-regular mb-md-0">
+                                        با کلیک بر روی هر یک از امکانات زیر به آن بخش منتقل میشوید
+                                    </p>
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <div class="row row-cols-1 row-cols-md-2 row-margin p-0">
+                            <div class="col py-4 my-2 my-sm-3">
+                                <a href="#" class="card h-100 card-hover card-default border-0 rounded-3 shadow-sm pt-5 px-sm-5 px-md-5 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+                                    <div class="card-body pt-3">
+                                        <div class="d-inline-block rounded-3 position-absolute top-0 translate-middle-y p-3 shadow-primary">
+                                            <i class="fa-solid fa-box-tissue fa-2x d-block m-1 features-title-icon"></i>                                       
+                                        </div>
+
+                                        <h4 class="d-inline-flex align-items-center">
+                                            FIRST ISSUE
+                                            <i class="text-primary fs-3 ms-2 fa-regular fa-arrow-right-to-arc features-icon"></i>
+                                        </h4>
+
+                                        <p class="fs-sm text-body mb-0">
+                                            شما میتوانید از این آیتم برای انتقال ترنسمیتال ها با یک نامه پوششی استفاده کنید. ترنسمیتال ها بر اساس ۳ مرحله انجام میگیرد
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col py-4 my-2 my-sm-3">
+                                <a href="#" class="card h-100 card-hover card-default border-0 rounded-3 shadow-sm pt-5 px-sm-5 px-md-5 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+                                    <div class="card-body pt-3">
+                                        <div class="d-inline-block rounded-3 position-absolute top-0 translate-middle-y p-3 shadow-primary">
+                                            <i class="fa-solid fa-envelope-open-text fa-2x d-block m-1 features-title-icon"></i>                                       
+                                        </div>
+
+                                        <h4 class="d-inline-flex align-items-center">
+                                            NEW LETTER
+                                            <i class="text-primary fs-3 ms-2 fa-regular fa-arrow-right-to-arc features-icon"></i>
+                                        </h4>
+                                            
+                                        <p class="fs-sm text-body mb-0">
+                                            از طریق این آیتم شما میتوانید نامه های خود را به شرکت های مذکور ارسال کنید. نامه ها میتوانند به صورت رو نوشت هم ارسال شوند
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col py-4 my-2 my-sm-3">
+                                <a href="#" class="card h-100 card-hover card-default border-0 rounded-3 shadow-sm pt-5 px-sm-5 px-md-5 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+                                    <div class="card-body pt-3">
+                                        <div class="d-inline-block rounded-3 position-absolute top-0 translate-middle-y p-3 shadow-primary">
+                                            <i class="fa-solid fa-reply-all fa-2x d-block m-1 features-title-icon"></i>                                       
+                                        </div>
+
+                                        <h4 class="d-inline-flex align-items-center">
+                                            REPLY
+                                            <i class="text-primary fs-3 ms-2 fa-regular fa-arrow-right-to-arc features-icon"></i>
+                                        </h4>
+
+                                        <p class="fs-sm text-body mb-0">
+                                            از طریق این منو شما میتوانید بر روی ترنسمیتال های مورد نظر، نظر و اظهارات خود را برای شرکت فرستنده ارسال کنید
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col py-4 my-2 my-sm-3">
+                                <a href="#" class="card h-100 card-hover card-default border-0 rounded-3 shadow-sm pt-5 px-sm-5 px-md-5 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+                                    <div class="card-body pt-3">
+                                        <div class="d-inline-block rounded-3 position-absolute top-0 translate-middle-y p-3 shadow-primary">
+                                            <i class="fa-solid fa-spinner fa-2x d-block m-1 features-title-icon"></i>                                       
+                                        </div>
+
+                                        <h4 class="d-inline-flex align-items-center">
+                                            WAITING
+                                            <i class="text-primary fs-3 ms-2 fa-regular fa-arrow-right-to-arc features-icon"></i>
+                                        </h4>
+
+                                        <p class="fs-sm text-body mb-0">
+                                            در این بخش شما میتوانید قبل از تایید نهایی برای ارسال ترنسمیتال، روی آن تغییرات و مشکلات را برطرف کنید
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col py-4 my-2 my-sm-3">
+                                <a href="#" class="card h-100 card-hover card-default border-0 rounded-3 shadow-sm pt-5 px-sm-5 px-md-5 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+                                    <div class="card-body pt-3">
+                                        <div class="d-inline-block rounded-3 position-absolute top-0 translate-middle-y p-3 shadow-primary">
+                                            <i class="fa-solid fa-folders fa-2x d-block m-1 features-title-icon"></i>                                       
+                                        </div>
+
+                                        <h4 class="d-inline-flex align-items-center">
+                                            REPORTS
+                                            <i class="text-primary fs-3 ms-2 fa-regular fa-arrow-right-to-arc features-icon"></i>
+                                        </h4>
+
+                                        <p class="fs-sm text-body mb-0">
+                                            در این بخش شما میتوانید تمامی گزارشات ارسال ترنسمیتال و اقدامات انجام شده روی هر ترنسمیتال را مشاهده کنید
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <div class="col py-4 my-2 my-sm-3">
+                                <a href="#" class="card h-100 card-hover card-default border-0 rounded-3 shadow-sm pt-5 px-sm-5 px-md-5 px-lg-3 pb-sm-3 pb-md-0 pb-lg-3 ms-xl-2">
+                                    <div class="card-body pt-3">
+                                        <div class="d-inline-block rounded-3 position-absolute top-0 translate-middle-y p-3 shadow-primary">
+                                            <i class="fa-solid fa-folder-magnifying-glass fa-2x d-block m-1 features-title-icon"></i>
+                                        </div>
+
+                                        <h4 class="d-inline-flex align-items-center">
+                                            FAST SEARCH
+                                            <i class="text-primary fs-3 ms-2 fa-regular fa-arrow-right-to-arc features-icon"></i>
+                                        </h4>
+
+                                        <p class="fs-sm text-body mb-0">
+                                            در این بخش شما میتوانید به کمک جستجو بر اساس موضوع های مختلف، ترنسمیتال یا نامه مورد نظر خود را پیدا کنید
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--Svg separator-->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" preserveAspectRatio="none" class="svg-separator">
+                    <path d="M0,0V3.6H580.08c11,0,19.92,5.09,19.92,13.2,0-8.14,8.88-13.2,19.92-13.2H1200V0Z" class="shape-fill svg-separator-bottom"></path>
+                </svg>
+
+                <!--Gallery-->
+                <section id="gallery" class="container pb-5 mb-2 mb-md-4 mb-lg-5 mt-n2" style="margin-top: -15px;">
+                    <div class="p-0 d-flex align-items-center justify-content-between pb-4 mb-2 flex-nowrap">
+                        <h1 class="mb-0">
+                            گالری تصاویر
+                        </h1>
+                    </div>
+                    
+                    <div class="gallery p-0 row g-4">
+
+                        <!--First column-->
+                        <div class="col-md-5">
+                            <a role="button" class="gallery-item rounded-3">
+                                <img src="src/image/gallery/1.jpg" alt="تصویر اول" width="526" height="600">
+                                <div class="gallery-item-caption p-4">
+                                    <h4 class="text-light mb-1">
+                                        متن تصویر اول
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!--Second column-->
+                        <div class="col-md-3 col-sm-5">
+                            <a role="button" class="gallery-item rounded-3 mb-4">
+                                <img src="src/image/gallery/2.jpg" alt="تصویر دوم" width="306" height="288">
+                                <div class="gallery-item-caption fs-sm text-bold">
+                                    <h4 class="text-light mb-1">
+                                        متن تصویر دوم
+                                    </h4>
+                                </div>
+                            </a>
+
+                            <a role="button" class="gallery-item rounded-3">
+                                <img src="src/image/gallery/3.jpg" alt="تصویر سوم" width="306" height="288">
+                                <div class="gallery-item-caption fs-sm text-bold">
+                                    <h4 class="text-light mb-1">
+                                        متن تصویر سوم
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!--Third column-->
+                        <div class="col-md-4 col-sm-7">
+                            <a role="button" class="gallery-item rounded-3 mb-4">
+                                <img src="src/image/gallery/4.jpg" alt="تصویر چهارم" width="416" height="360">
+                                <div class="gallery-item-caption fs-sm text-bold">
+                                    <h4 class="text-light mb-1">
+                                        متن تصویر چهارم
+                                    </h4>
+                                </div>
+                            </a>
+
+                            <a role="button" class="gallery-item rounded-3">
+                                <img src="src/image/gallery/5.jpg" alt="تصویر پنجم" width="416" height="216">
+                                <div class="gallery-item-caption fs-sm text-bold">
+                                    <h4 class="text-light mb-1">
+                                        متن تصویر پنجم
+                                    </h4>
+                                </div>
+                            </a>
+                        </div>                        
+                    </div>
+
+                    <!--Gallery overlay-->
+                    <div class="gallery-item-fix">
+                        <a role="button" class="btn btn-outline-primary gallery-item-fix-exit">
+                            خروج <i class="fa-solid fa-xmark"></i>
+                        </a>
+
+                        <div class="d-flex align-items-center justify-content-center m-4">
+                            <img src="" alt="تصویر انتخابی" class="gallery-item-fix-img">
+                        </div>
+                    </div>
+                </section>
+
+                <!--Coworkers-->                
+                <section id="coworkers" class="container pb-3 pb-lg-5 mb-3 mt-5">
+                    <div class="p-0">
+                        <h1 class="text-center pb-md-2">
+                            شرکت‌های مرتبط با پروژه
+                        </h1>
+                    </div>
+
+                    <!--Coworkers default-->
+                    <div class="d-flex align-items-center justify-content-center flex-wrap brand">
+                        <div class="py-3 mx-2 coworkers-icon">
+                            <a role="button" class="card card-body card-default px-5 mx-2" title="شرکت اول">
+                                <img src="src/image/logo/Moshanir.png" alt="شرکت اول" class="d-block mx-auto my-2">
+                            </a>
+                        </div>
+
+                        <div class="py-3 mx-2 coworkers-icon">
+                            <a role="button" class="card card-body card-default px-5 mx-2" title="شرکت دوم">
+                                <img src="src/image/logo/Mapna.png" alt="شرکت دوم" class="d-block mx-auto my-2">
+                            </a>
+                        </div>
+
+                        <div class="py-3 mx-2 coworkers-icon">
+                            <a role="button" class="card card-body card-default px-5 mx-2" title="شرکت سوم">
+                                <img src="src/image/logo/Tavangostar.png" alt="شرکت سوم" class="d-block mx-auto my-2">
+                            </a>
+                        </div>
+                    </div>
+
+                    <!--Coworkers carousel--> 
+                    <div class="d-flex justify-content-center carousel-brand">
+                        <div id="carouselBrand" class="carousel slide" data-bs-ride="carousel">
+
+                            <!--Indicators-->
+                            <ol class="carousel-indicators carousel-indicators-brand">
+                                <li type="button" data-bs-target="#carouselBrand" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+                                <li type="button" data-bs-target="#carouselBrand" data-bs-slide-to="1" aria-label="Slide 2"></li>
+                                <li type="button" data-bs-target="#carouselBrand" data-bs-slide-to="2" aria-label="Slide 3"></li>
+                            </ol>
+
+                            <!--Items-->
+                            <div class="carousel-inner carousel-inner-brand">
+                                <div class="carousel-item active py-3 mx-2 coworkers-icon">
+                                    <a role="button" class="card card-body card-default px-5 mx-2" title="شرکت اول">
+                                        <img src="src/image/logo/Moshanir.png" alt="شرکت اول" class="d-block mx-auto my-2">
+                                    </a>
+                                </div>
+    
+                                <div class="carousel-item py-3 mx-2 coworkers-icon">
+                                    <a role="button" class="card card-body card-default px-5 mx-2" title="شرکت دوم">
+                                        <img src="src/image/logo/Mapna.png" alt="شرکت دوم" class="d-block mx-auto my-2">
+                                    </a>
+                                </div>
+    
+                                <div class="carousel-item py-3 mx-2 coworkers-icon">
+                                    <a role="button" class="card card-body card-default px-5 mx-2" title="شرکت سوم">
+                                        <img src="src/image/logo/Tavangostar.png" alt="شرکت سوم" class="d-block mx-auto my-2">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                                        
+                </section>
+
+                <!--Footer-->
+                <footer class="bg-secondary">
+                    <div class="container">
+                        <div class="row justify-content-md-center text-center">
+                            <div class="col-md-8 mb-0 mt-4">
+                                <a href="#" rel="home" aria-current="page" draggable="false">
+                                    <img src="src/image/logo/Moshanir.png" class="mt-3 footer-logo" alt="مشانیر">
+                                </a>
+    
+                                <!--Social media-->
+                                <div class="d-flex align-items-center justify-content-center social-media">
+                                    <a href="#" class="d-inline-block rounded-4 translate-middle-y m-3 p-3 social-media-icon" title="سایت مشانیر">
+                                        <i class="fa-solid fa-house d-block" style="margin: 0.25rem 0.2rem 0.25rem 0.25rem;"></i>                                                                    
+                                    </a>                                
+    
+                                    <a href="#" class="d-inline-block rounded-4 translate-middle-y m-3 p-3 social-media-icon" title="ایمیل">
+                                        <i class="fa-solid fa-envelope d-block m-1"></i>        
+                                    </a>
+                                    
+                                    <a href="#" class="d-inline-block rounded-4 translate-middle-y m-3 p-3 social-media-icon" title="فیسبوک">
+                                        <i class="fa-brands fa-facebook d-block m-1"></i>
+                                    </a>
+                                    
+                                    <a href="#" class="d-inline-block rounded-4 translate-middle-y m-3 p-3 social-media-icon" title="توییتر">
+                                        <i class="fa-brands fa-twitter d-block m-1"></i>
+                                    </a>
+                                </div>
+
+                                <!--Info-->
+                                <div class="mt-2 mb-2 d-flex align-items-center justify-content-center text-nowrap flex-wrap footer-info">
+                                    <p class="text-extrabold">
+                                        آدرس : <p class="text-medium">&nbsp;میدان ونک، خیابان شهید خدامی، کوچه شادی ۲، پلاک ۱</p>
+                                    </p>
+
+                                    <span class="text-separator"></span>
+
+                                    <p class="text-extrabold">
+                                        کدپستی : <span class="number-space text-medium">۱۹۹۴۷۵۳۴۸۶</span>
+                                    </p>
+                                </div>
+                            </div>                        
+                        </div>
+                    </div>
+
+                    <!--Copyright-->
+                    <div class="d-block bg-secondary m-auto text-center footer-copyright">
+                        <p class="p-3">
+                            کلیه حقوق مادی و معنوی وب سایت متعلق به شرکت <a href="#" style="color: #6366f1;">مشانیر</a> می باشد.
+                        </p>
+                    </div>
+                </footer>
+            </div>
+
+            
+            <!--Back to top-->
+            <a role="button" id="back-to-top" class="btn btn-lg mb-4 mb-lg-0 show back-to-top">                
+                <i class="fas fa-chevron-up"></i>
+            </a>
+        </div>
+
+        <!--Scripts-->
+        <script src="src/js/jquery.min.js"></script>
+        <script src="src/js/bootstrap.min.js"></script>
+        <script src="src/js/main.js"></script>
+    </body>
+</html>
